@@ -58,7 +58,7 @@ def validate_data(age, investment_amount):
         if investment_amt <= 1000:
             return build_validation_result(
                 False,
-                "investment_amount",
+                "investmentAmount",
                 "The minimum amount to invest should be greater than 1000, "
                 "please provide a correct amount in USD to invest.",
             )
